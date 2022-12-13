@@ -5,13 +5,14 @@
 > <h2>Download</h2>
 + Baixe o projeto <a id="raw-url" href="https://github.com/zOlavoPYT/TR12_537793/archive/refs/heads/main.zip">aqui</a>
 > <h2>Instalação</h2>
-+ Abra o terminal onde se encontra o projeto e digite:
++ É preciso que todos arquivos estejam na mesma pasta.
++ Para gerar a biblioteca digite:
 ```
 gcc -c heap.c 
 ```
-+ Vai criar um executável
++ Vai criar um arquivo com o nome heap.o
 > <h2>Executando</h2>
-+ Abra o terminal onde se encontra o executável e altere o nome do programa digitando:
++ Abra o terminal e digite:
 ```
 gcc main.c heap.o -o nome_do_programa
 ```
